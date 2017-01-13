@@ -10,7 +10,7 @@ title = "Topology Monitoring"
 
 # Topology Management
 
-The Node.js driver `2.1.10` or higher features SDAM Monitoring events,
+The Node.js driver `2.1.10` or higher features [Server Discovery And Monitoring (SDAM)](https://github.com/mongodb/specifications/tree/master/source/server-discovery-and-monitoring) events,
 allowing an application or tool to monitor changes in the drivers
 view of a single server, replica set or `mongos`. This allows an
 application to react to changes of topology, such as a secondary
